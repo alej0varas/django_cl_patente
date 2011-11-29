@@ -1,0 +1,21 @@
+Django Custom Field for Chilean Car Plate
+=========================================
+
+How to
+------
+
+    from django_cl_patente import CLPatenteField
+
+    and usit in your models
+
+
+Test
+----
+
+    Install django-app-test-runner from
+
+        git://github.com/zyegfryed/django-app-test-runner.git@a6210a44851f62211752b68b8bbcdb19a108e92e#egg=django_app_test_runner-dev
+
+    From the parent dir of the project run
+
+        app-test-runner django_cl_patente django_cl_patente.CLPatenteFieldTest
